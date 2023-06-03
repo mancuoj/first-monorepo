@@ -1,0 +1,10 @@
+{
+  "name": "@mancuoj/is-odd",
+  "type": "module",
+  "version": "0.0.2",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "@mancuoj/is-even": "workspace:*"
+  }
+}
