@@ -20,10 +20,12 @@
     "taze": "taze minor -wIr",
     "release": "bumpp -r && pnpm -r publish"
   },
+  "dependencies": {
+    "@mancuoj/is-even": "workspace:*",
+    "@mancuoj/is-odd": "workspace:*"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.4",
-    "@mancuoj/is-even": "workspace:*",
-    "@mancuoj/is-odd": "workspace:*",
     "bumpp": "^9.1.0",
     "eslint": "^8.42.0",
     "taze": "^0.10.1"

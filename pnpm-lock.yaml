@@ -7,16 +7,17 @@ settings:
 importers:
 
   .:
-    devDependencies:
-      '@antfu/eslint-config':
-        specifier: ^0.39.4
-        version: 0.39.4(eslint@8.42.0)(typescript@5.1.3)
+    dependencies:
       '@mancuoj/is-even':
         specifier: workspace:*
         version: link:packages/is-even
       '@mancuoj/is-odd':
         specifier: workspace:*
         version: link:packages/is-odd
+    devDependencies:
+      '@antfu/eslint-config':
+        specifier: ^0.39.4
+        version: 0.39.4(eslint@8.42.0)(typescript@5.1.3)
       bumpp:
         specifier: ^9.1.0
         version: 9.1.0
