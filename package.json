@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "taze": "taze minor -wIr",
-    "release": "bumpp -r"
+    "release": "bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.4",
